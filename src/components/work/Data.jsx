@@ -1,7 +1,7 @@
 import Work3 from "../../assets/Bot AI.jpg";
 import Work2 from "../../assets/qkart.jpg";
 import Work5 from "../../assets/bankist.jpg";
-import Work1 from "../../assets/medify.jpg";
+import Work1 from "../../assets/Medify.jpg";
 import Work4 from "../../assets/omnifood.jpg";
 export const projectsData = [
   {
