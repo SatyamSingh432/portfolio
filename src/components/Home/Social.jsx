@@ -1,14 +1,26 @@
 const Social = () => {
   return (
     <div className="home__social">
-      <a href="" className="home__social-icon" target="_blank">
-        <i className="uil uil-instagram"></i>
+      <a
+        href="https://x.com/Satyam627"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-twitter"></i>
       </a>
-      <a href="" className="home__social-icon" target="_blank">
-        <i className="uil uil-dribbble"></i>
+      <a
+        href="https://www.linkedin.com/in/satyam-singh-14677a218/"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-linkedin"></i>
       </a>
-      <a href="" className="home__social-icon" target="_blank">
-        <i className="uil uil-github-alt"></i>
+      <a
+        href="https://github.com/SatyamSingh432"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-github"></i>
       </a>
     </div>
   );

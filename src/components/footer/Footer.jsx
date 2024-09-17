@@ -1,12 +1,12 @@
 import "./Footer.css";
 import { FaSquareFacebook } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">Satyam</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -20,27 +20,27 @@ const Footer = () => {
           </li>
           <li>
             <a href="#testimonial" className="footer__link">
-              Testimonial
+              Contact
             </a>
           </li>
         </ul>
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.linkedin.com/in/satyam-singh-14677a218/"
             className="home__social-icon"
             target="_blank"
           >
-            <FaSquareInstagram />
+            <FaLinkedin />
           </a>
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/profile.php?id=100008768915604"
             className="home__social-icon"
             target="_blank"
           >
             <FaSquareFacebook />
           </a>
           <a
-            href="https://www.twitter.com/"
+            href="https://x.com/Satyam627"
             className="home__social-icon"
             target="_blank"
           >
