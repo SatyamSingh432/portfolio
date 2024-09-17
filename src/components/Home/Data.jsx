@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { IoHandLeft } from "react-icons/io5";
 import { IoIosSend } from "react-icons/io";
 const Data = () => {
@@ -7,11 +8,10 @@ const Data = () => {
         Satyam Singh
         <IoHandLeft className="home__hand" style={{ color: "orange" }} />
       </h1>
-      <h3 className="home__subtitle">Software Developer</h3>
+      <h3 className="home__subtitle">FrontEnd Developer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
-        voluptatem deserunt. Facilis atque accusamus dolore enim dolores odit
-        quo amet.
+        I'm an enthusiastic and motivated Front-End Developer, eager to apply my
+        skills in creating engaging and responsive web interfaces.
       </p>
       <a href="#contact" className="button button--flex">
         {"Say Hello "}

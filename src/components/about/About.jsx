@@ -1,4 +1,5 @@
-import Aboutimg from "../../assets/aboutimg.png";
+/* eslint-disable react/no-unescaped-entities */
+import Aboutimg from "../../assets/satyam.jpg";
 import { GoFileSubmodule } from "react-icons/go";
 import CV from "../../assets/satyamresume.pdf";
 import Info from "./Info";
@@ -13,10 +14,15 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos hic
-            magnam quibusdam omnis cum possimus a labore repellendus quos quae
-            eveniet asperiores, accusamus alias suscipit exercitationem, id
-            fugiat eaque atque!
+            <p style={{ paddingBottom: "10px" }}>
+              I'm very ambitious front-end developer looking for a role in
+              established IT company with the opportunity to work with the
+              latest technologies on challenging and diverse projects.
+            </p>
+            <p>
+              I'm quietly confident, naturally curious, and perpetually working
+              on improving my chops one design problem at a time.
+            </p>
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
