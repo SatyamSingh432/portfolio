@@ -1,4 +1,4 @@
-import "./ScrollUp.css";
+import "./scrollUp.css";
 const ScrollUp = () => {
   return (
     <a href="#" className="scrollup">
