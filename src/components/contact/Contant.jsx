@@ -71,7 +71,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button className="button button--flex">
-              Send Message
+              Send-Message
               <IoIosSend
                 className="button__icon"
                 style={{ color: "hsl(0, 0%, 98%)" }}
